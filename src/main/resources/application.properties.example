@@ -1,0 +1,14 @@
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.dialect=MYSQL
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+app.jwt.secret=
+app.jwt.valid-for=86400000
+
+logging.level.web=DEBUG
+server.port=8090
+
+logging.level.org.jooq.tools.LoggerListener=DEBUG
